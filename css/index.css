@@ -181,6 +181,9 @@ h3 {
 .home-container {
   background: #953131;
 }
+.introduction {
+  padding: 2rem;
+}
 .clip-art img {
   height: 10%;
   width: 10%;
@@ -189,7 +192,7 @@ h3 {
   display: flex;
 }
 .meet-team img {
-  height: 10rem ;
+  height: 10rem;
   width: 10rem;
   border-radius: 50px;
 }

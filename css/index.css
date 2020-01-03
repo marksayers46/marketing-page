@@ -213,6 +213,10 @@ home-container {
 }
 .help-desk {
   margin-top: 3rem;
+  padding: 2rem;
+}
+.help-desk p {
+  margin-top: 1.2rem;
 }
 .btn {
   color: #F6F7F8;
@@ -228,12 +232,18 @@ home-container {
   background-color: #F6F7F8;
   color: #050404;
 }
+.team-heading {
+  margin-left: 39rem;
+}
 .meet-team {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .meet-team img {
   height: 10rem;
   width: 10rem;
   border-radius: 100px;
   border: 12px double black;
+  margin-top: 3rem;
 }

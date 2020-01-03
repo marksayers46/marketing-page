@@ -1,14 +1,38 @@
 .home-container {
-    background: #6a1818;
+    background: @home-bg;
 }
 
 .introduction {
     padding: 2rem;
 }
 
-.clip-art img{
-    height: 10%;
-    width: 10%;
+.clip-art {
+    .flex();
+    margin-top: 3em;
+
+    img{
+        height: 10%;
+        width: 10%;
+    }
+}
+
+.clip-art-text {
+    .flex();
+    margin-top: 1rem;
+}
+
+.help-desk {
+    margin-top: 3rem;
+}
+
+.btn {
+    .btn-styles(#F6F7F8, #050404);
+    margin: 1rem;
+    width: 5.7rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: .5rem;
+    border-radius: 15px;
 }
 
 .meet-team {

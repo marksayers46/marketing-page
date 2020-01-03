@@ -1,3 +1,13 @@
+.flex-display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -129,10 +139,6 @@ table {
 * {
   box-sizing: border-box;
 }
-html {
-  font-size: 0.9rem;
-  padding: 0.3rem;
-}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -156,8 +162,8 @@ home-container {
 }
 .nav-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
   height: 15rem;
 }
@@ -189,9 +195,38 @@ home-container {
 .introduction {
   padding: 2rem;
 }
+.clip-art {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
 .clip-art img {
   height: 10%;
   width: 10%;
+}
+.clip-art-text {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.help-desk {
+  margin-top: 3rem;
+}
+.btn {
+  color: #F6F7F8;
+  background-color: #050404;
+  margin: 1rem;
+  width: 5.7rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  border-radius: 15px;
+}
+.btn:hover {
+  background-color: #F6F7F8;
+  color: #050404;
 }
 .meet-team {
   display: flex;

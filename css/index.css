@@ -176,24 +176,29 @@ home-container {
   position: relative;
 }
 .heading-name {
-  padding-top: 4rem;
+  padding-top: 2rem;
   margin-left: 2rem;
 }
 .heading-name h1 {
   background: #6c6565;
   text-shadow: 3px 2px #6a1818;
   border: 0.5rem solid #050404;
-  border-radius: 90%;
-}
-.heading-name h3 {
+  outline-style: double;
+  outline-color: #6a1818;
+  padding-right: 1rem;
   padding-top: 1rem;
 }
+.heading-name h3 {
+  padding-top: 2rem;
+}
 .heading-title {
-  padding: 3rem;
-  margin-left: 6.3rem;
+  padding: 3rem 1rem;
 }
 .heading-title img {
-  padding-left: 5rem;
+  padding-left: 10rem;
+}
+.heading-title p {
+  margin-left: 3rem;
 }
 .navigation {
   padding-top: 1rem;
@@ -248,14 +253,14 @@ home-container {
   color: #050404;
 }
 .team-heading {
-  margin-left: 39rem;
+  margin-left: 62rem;
+  padding-bottom: 2rem;
 }
 .meet-team {
-  width: 10rem;
+  width: 100%;
   display: flex;
-}
-.meet-team p {
-  color: #F6F7F8;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .meet-team img {
   height: 10rem;
@@ -263,4 +268,7 @@ home-container {
   border-radius: 100px;
   border: 12px double #050404;
   margin: 0 auto;
+}
+.meet-team p {
+  color: #F6F7F8;
 }

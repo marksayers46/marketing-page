@@ -10,7 +10,7 @@
     .flex();
     margin-top: 3em;
 
-    img{
+    img {
         height: 10%;
         width: 10%;
     }
@@ -41,25 +41,29 @@
 }
 
 .team-heading {
-    margin-left: 39rem;
+    margin-left: 62rem;
+    padding-bottom: 2rem;
 }
 
 .meet-team {
-    width: 10rem;
-    display: flex;
+    width: 100%;
+    .flex();
+
+    img {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 100px;
+        border: 12px double @color;
+        margin: 0 auto;
+        }
 
     p {
         color: @bgcolor;
     }
 }
 
-.meet-team img {
-    height: 10rem;
-    width: 10rem;
-    border-radius: 100px;
-    border: 12px double @color;
-    margin: 0 auto;
-}
+
+    
 
 
 

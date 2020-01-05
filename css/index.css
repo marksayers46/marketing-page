@@ -139,18 +139,27 @@ table {
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-family: 'Audiowide', cursive;
-  font-size: 3rem;
+  font-size: 10rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 3rem;
+}
+p {
+  font-size: 1.7rem;
+}
+figcaption {
+  font-size: 2rem;
 }
 nav-container,
 home-container {
@@ -165,29 +174,35 @@ home-container {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
-  height: 15rem;
 }
 .heading-name {
   padding-top: 4rem;
   margin-left: 2rem;
+}
+.heading-name h1 {
+  background: #6c6565;
+  text-shadow: 3px 2px #6a1818;
+  border: 0.5rem solid #050404;
+  border-radius: 90%;
 }
 .heading-name h3 {
   padding-top: 1rem;
 }
 .heading-title {
   padding: 3rem;
-  margin-left: 6rem;
+  margin-left: 6.3rem;
 }
 .heading-title img {
-  padding-left: 3.7rem;
+  padding-left: 5rem;
 }
 .navigation {
   padding-top: 1rem;
 }
 .navigation a {
   text-decoration: none;
-  color: black;
+  color: #050404;
   padding-right: 2rem;
+  font-size: 1.7rem;
 }
 .home-container {
   background: #6a1818;
@@ -236,14 +251,16 @@ home-container {
   margin-left: 39rem;
 }
 .meet-team {
+  width: 10rem;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+}
+.meet-team p {
+  color: #F6F7F8;
 }
 .meet-team img {
   height: 10rem;
   width: 10rem;
   border-radius: 100px;
-  border: 12px double black;
-  margin-top: 3rem;
+  border: 12px double #050404;
+  margin: 0 auto;
 }

@@ -4,6 +4,10 @@
 
 .introduction {
     padding: 2rem;
+
+    h3 {
+        color: @nav-bg;
+    }
 }
 
 .clip-art {
@@ -25,28 +29,41 @@
     margin-top: 3rem;
     padding: 2rem;
 
+    h3 {
+        color: @nav-bg;
+    }
+
     p {
         margin-top: 1.2rem;
     }
 }
 
 .btn {
-    .btn-styles(#F6F7F8, #050404);
+    .btn-styles( #6c6565, #050404);
     margin: 1rem;
-    width: 5.7rem;
-    height: 2rem;
+    width: 10rem;
+    height: 5rem;
     text-align: center;
     padding-top: .5rem;
     border-radius: 15px;
+
+    a {
+        text-decoration: none;
+        color: @bgcolor;
+        font-size: 2rem;
+    }
 }
 
 .team-heading {
     margin-left: 62rem;
     padding-bottom: 2rem;
+
+    h3 {
+        color: @nav-bg;
+    }
 }
 
 .meet-team {
-    width: 100%;
     .flex();
 
     img {
@@ -56,6 +73,14 @@
         border: 12px double @color;
         margin: 0 auto;
         }
+
+    p {
+        color: @bgcolor;
+    }
+}
+
+footer {
+    background-color: @color;
 
     p {
         color: @bgcolor;

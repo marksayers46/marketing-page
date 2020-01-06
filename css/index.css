@@ -275,8 +275,8 @@ home-container {
   justify-content: space-evenly;
 }
 .meet-team img {
-  height: 10rem;
-  width: 10rem;
+  height: 20rem;
+  width: 20rem;
   border-radius: 100px;
   border: 12px double #050404;
   margin: 0 auto;

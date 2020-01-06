@@ -6,7 +6,7 @@
     padding: 2rem;
 
     h3 {
-        color: @nav-bg;
+        color: @bgcolor;
     }
 }
 
@@ -30,7 +30,7 @@
     padding: 2rem;
 
     h3 {
-        color: @nav-bg;
+        color: @bgcolor;
     }
 
     p {
@@ -44,13 +44,14 @@
     width: 10rem;
     height: 5rem;
     text-align: center;
-    padding-top: .5rem;
+    padding-top: 1.5rem;
     border-radius: 15px;
 
     a {
         text-decoration: none;
         color: @bgcolor;
         font-size: 2rem;
+        text-align: center;
     }
 }
 
@@ -59,12 +60,13 @@
     padding-bottom: 2rem;
 
     h3 {
-        color: @nav-bg;
+        color: @bgcolor;
     }
 }
 
 .meet-team {
-    .flex();
+    display:flex;
+    justify-content: space-evenly;
 
     img {
         height: 10rem;
@@ -73,10 +75,10 @@
         border: 12px double @color;
         margin: 0 auto;
         }
+}
 
-    p {
-        color: @bgcolor;
-    }
+.team-info {
+    .flex();
 }
 
 footer {

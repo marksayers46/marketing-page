@@ -215,7 +215,7 @@ home-container {
   padding: 2rem;
 }
 .introduction h3 {
-  color: #6c6565;
+  color: #a6a8a8;
 }
 .clip-art {
   display: flex;
@@ -238,7 +238,7 @@ home-container {
   padding: 2rem;
 }
 .help-desk h3 {
-  color: #6c6565;
+  color: #a6a8a8;
 }
 .help-desk p {
   margin-top: 1.2rem;
@@ -250,7 +250,7 @@ home-container {
   width: 10rem;
   height: 5rem;
   text-align: center;
-  padding-top: 0.5rem;
+  padding-top: 1.5rem;
   border-radius: 15px;
 }
 .btn:hover {
@@ -259,20 +259,20 @@ home-container {
 }
 .btn a {
   text-decoration: none;
-  color: #F6F7F8;
+  color: #a6a8a8;
   font-size: 2rem;
+  text-align: center;
 }
 .team-heading {
   margin-left: 62rem;
   padding-bottom: 2rem;
 }
 .team-heading h3 {
-  color: #6c6565;
+  color: #a6a8a8;
 }
 .meet-team {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .meet-team img {
   height: 10rem;
@@ -281,12 +281,14 @@ home-container {
   border: 12px double #050404;
   margin: 0 auto;
 }
-.meet-team p {
-  color: #F6F7F8;
+.team-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 footer {
   background-color: #050404;
 }
 footer p {
-  color: #F6F7F8;
+  color: #a6a8a8;
 }

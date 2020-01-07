@@ -1,3 +1,5 @@
+@phone (max-width: 500px);
+@tablet (max-width: 1000px);
 .flex-display {
   display: flex;
   justify-content: space-between;
@@ -286,6 +288,15 @@ home-container {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 2rem;
+}
+.team-info .ira {
+  margin-left: 1rem;
+}
+.team-info .brandon {
+  margin-left: 3rem;
+}
+.team-info .jay-lee {
+  margin-right: 2rem;
 }
 footer {
   background-color: #050404;

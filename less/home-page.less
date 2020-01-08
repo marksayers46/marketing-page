@@ -1,5 +1,9 @@
 .home-container {
     background: @home-bg;
+
+    @media @tablet {
+        padding: 2rem;
+    }
 }
 
 .introduction {
@@ -64,8 +68,13 @@
 }
 
 .team-heading {
-    margin-left: 62rem;
+    display: flex;
+    justify-content: center;
     padding-bottom: 2rem;
+
+    @media @phone {
+        display: flex;
+    }
 
     h3 {
         color: @bgcolor;
@@ -76,32 +85,26 @@
     display:flex;
     justify-content: space-evenly;
 
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 14rem;
+    }
+
     img {
-        height: 20rem;
-        width: 20rem;
+        height: 18rem;
+        width: 18rem;
         border-radius: 100px;
         border: 12px double @color;
         margin: 0 auto;
-        }
-}
-
-.team-info {
-    .flex();
-    padding: 2rem;
-
-    .ira {
-        margin-left: 1rem;
-    }
-
-    .brandon {
-        margin-left: 3rem;
-    }
-
-    .jay-lee {
-        margin-right: 2rem;
+    } 
+    
+    p {
+        padding-left: 2rem;
+        padding-bottom: 1rem;
     }
 }
-
 
 footer {
     background-color: @color;

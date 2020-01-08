@@ -180,6 +180,11 @@ home-container {
     margin-left: 4rem;
   }
 }
+@media (max-width: 1000px) {
+  .nav-container {
+    padding: 2rem;
+  }
+}
 .heading-name {
   padding-top: 2rem;
   margin-left: 2rem;
@@ -215,11 +220,16 @@ home-container {
 }
 @media (max-width: 500px) {
   .navigation a {
-    margin-left: 1.9rem;
+    margin-left: 0.5rem;
   }
 }
 .home-container {
   background: #6a1818;
+}
+@media (max-width: 1000px) {
+  .home-container {
+    padding: 2rem;
+  }
 }
 .introduction {
   padding: 2rem;
@@ -284,8 +294,14 @@ home-container {
   text-align: center;
 }
 .team-heading {
-  margin-left: 62rem;
+  display: flex;
+  justify-content: center;
   padding-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .team-heading {
+    display: flex;
+  }
 }
 .team-heading h3 {
   color: #a6a8a8;
@@ -294,27 +310,24 @@ home-container {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .meet-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 14rem;
+  }
+}
 .meet-team img {
-  height: 20rem;
-  width: 20rem;
+  height: 18rem;
+  width: 18rem;
   border-radius: 100px;
   border: 12px double #050404;
   margin: 0 auto;
 }
-.team-info {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 2rem;
-}
-.team-info .ira {
-  margin-left: 1rem;
-}
-.team-info .brandon {
-  margin-left: 3rem;
-}
-.team-info .jay-lee {
-  margin-right: 2rem;
+.meet-team p {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
 }
 footer {
   background-color: #050404;

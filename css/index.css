@@ -1,5 +1,3 @@
-@phone (max-width: 500px);
-@tablet (max-width: 1000px);
 .flex-display {
   display: flex;
   justify-content: space-between;
@@ -177,6 +175,11 @@ home-container {
   flex-wrap: wrap;
   position: relative;
 }
+@media (max-width: 500px) {
+  .nav-container {
+    margin-left: 4rem;
+  }
+}
 .heading-name {
   padding-top: 2rem;
   margin-left: 2rem;
@@ -210,6 +213,11 @@ home-container {
   padding-right: 2rem;
   font-size: 1.7rem;
 }
+@media (max-width: 500px) {
+  .navigation a {
+    margin-left: 1.9rem;
+  }
+}
 .home-container {
   background: #6a1818;
 }
@@ -229,11 +237,21 @@ home-container {
   height: 10%;
   width: 10%;
 }
+@media (max-width: 500px) {
+  .clip-art {
+    display: none;
+  }
+}
 .clip-art-text {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 1rem;
+}
+@media (max-width: 500px) {
+  .clip-art-text {
+    display: none;
+  }
 }
 .help-desk {
   margin-top: 3rem;

@@ -18,11 +18,19 @@
         height: 10%;
         width: 10%;
     }
+
+    @media @phone {
+        display: none;
+    }
 }
 
 .clip-art-text {
     .flex();
     margin-top: 1rem;
+
+    @media @phone {
+        display: none;
+    }
 }
 
 .help-desk {
@@ -93,6 +101,7 @@
         margin-right: 2rem;
     }
 }
+
 
 footer {
     background-color: @color;

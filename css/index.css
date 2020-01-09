@@ -177,7 +177,7 @@ home-container {
 }
 @media (max-width: 500px) {
   .nav-container {
-    margin-left: 4rem;
+    margin-left: 2rem;
   }
 }
 @media (max-width: 1000px) {
@@ -319,14 +319,14 @@ home-container {
   }
 }
 .meet-team img {
-  height: 18rem;
-  width: 18rem;
+  height: 19rem;
+  width: 19rem;
   border-radius: 100px;
   border: 12px double #050404;
   margin: 0 auto;
 }
 .meet-team p {
-  padding-left: 2rem;
+  padding-left: 3rem;
   padding-bottom: 1rem;
 }
 footer {

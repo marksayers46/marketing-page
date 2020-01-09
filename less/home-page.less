@@ -1,0 +1,121 @@
+.home-container {
+    background: @home-bg;
+
+    @media @tablet {
+        padding: 2rem;
+    }
+}
+
+.introduction {
+    padding: 2rem;
+
+    h3 {
+        color: @bgcolor;
+    }
+}
+
+.clip-art {
+    .flex();
+    margin-top: 3em;
+
+    img {
+        height: 10%;
+        width: 10%;
+    }
+
+    @media @phone {
+        display: none;
+    }
+}
+
+.clip-art-text {
+    .flex();
+    margin-top: 1rem;
+
+    @media @phone {
+        display: none;
+    }
+}
+
+.help-desk {
+    margin-top: 3rem;
+    padding: 2rem;
+
+    h3 {
+        color: @bgcolor;
+    }
+
+    p {
+        margin-top: 1.2rem;
+    }
+}
+
+.btn {
+    .btn-styles( #6c6565, #050404);
+    margin: 1rem;
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-radius: 15px;
+
+    a {
+        text-decoration: none;
+        color: @bgcolor;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.team-heading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+    @media @phone {
+        display: flex;
+    }
+
+    h3 {
+        color: @bgcolor;
+    }
+}
+
+.meet-team {
+    display:flex;
+    justify-content: space-evenly;
+
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 14rem;
+    }
+
+    img {
+        height: 19rem;
+        width: 19rem;
+        border-radius: 100px;
+        border: 12px double @color;
+        margin: 0 auto;
+    } 
+    
+    p {
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+    }
+}
+
+footer {
+    background-color: @color;
+
+    p {
+        color: @bgcolor;
+    }
+}
+
+
+    
+
+
+
